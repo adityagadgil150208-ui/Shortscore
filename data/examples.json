@@ -1,0 +1,122 @@
+[
+  {
+    "id": "example-smci",
+    "ticker": "SMCI",
+    "company_name": "Super Micro Computer",
+    "short_seller": "Hindenburg Research",
+    "date_dropped": "2024-08-27",
+    "is_example": true,
+    "classification": "Questions about accounting and sales",
+    "executive_summary": [
+      "The report alleged problems with how the company recorded some sales and described certain business relationships.",
+      "The author pointed to interviews and business records. This illustrative summary has not checked those materials or the company's responses.",
+      "The allegations would need to be compared with original filings and company explanations before drawing a conclusion."
+    ],
+    "smoking_gun": "The report described interviews and records that it said supported its concerns. A reference to documents or an unnamed source does not, by itself, prove an allegation. The underlying evidence has not been reviewed for this example.",
+    "primary_claims": [
+      { "claim": "The report alleged that some sales may have been recorded in a way that made results look better.", "metric_disputed": "Revenue: sales recorded during a period.", "severity": "High" },
+      { "claim": "The report questioned whether some relationships with other businesses were adequately explained.", "metric_disputed": "Related-party disclosures: explanations of deals involving connected people or businesses.", "severity": "Medium" }
+    ],
+    "what_to_check": [
+      "Read the original report and locate the documents or interviews behind each specific allegation.",
+      "Compare the allegations with the company's annual reports, revenue policies, and related-party disclosures from the same period.",
+      "Find the company's response and any later auditor or regulator findings; distinguish allegations from confirmed findings."
+    ],
+    "key_terms": [
+      { "term": "Revenue", "definition": "Money recorded from selling goods or services. Recording a sale and collecting cash can happen at different times." },
+      { "term": "Related party", "definition": "A person or business connected to a company, such as through ownership or management." },
+      { "term": "Short seller", "definition": "An investor who may profit when a share price falls. That financial interest is a reason to examine the evidence carefully." }
+    ],
+    "source_note": "Illustrative summary of historical allegations, not verified or current research. The original report, evidence, and company response were not independently reviewed for this example. This is not a recommendation to buy or sell."
+  },
+  {
+    "id": "example-mstr",
+    "ticker": "MSTR",
+    "company_name": "MicroStrategy (now Strategy)",
+    "short_seller": "Kerrisdale Capital",
+    "date_dropped": "2024-03-28",
+    "is_example": true,
+    "classification": "A disagreement about the share price",
+    "executive_summary": [
+      "The report argued that the share price placed too much value on the company's bitcoin holdings compared with other ways of owning bitcoin.",
+      "That is an opinion about valuation. A high valuation alone does not establish accounting fraud or other wrongdoing.",
+      "The argument depends on the date, share count, debt, bitcoin holdings, and assumptions used. This example supplies no current valuation."
+    ],
+    "smoking_gun": "The argument relied on comparing the market value of the business with estimates of its assets and obligations. Such a comparison can explain a valuation opinion, but it does not prove what a share should trade for or predict its future price.",
+    "primary_claims": [
+      { "claim": "The report argued that investors were paying a large premium for the company's bitcoin exposure.", "metric_disputed": "Premium to asset value: how much the share value exceeds an estimate of the assets behind it.", "severity": "Medium" },
+      { "claim": "The report argued that other ways of holding bitcoin weakened the case for paying that premium.", "metric_disputed": "Relative valuation: comparing the price and features of different investments.", "severity": "Low" }
+    ],
+    "what_to_check": [
+      "Use filings from the report's date to check bitcoin holdings, debt, and shares outstanding, including shares that could be issued later.",
+      "Rebuild the author's comparison using figures from the same date and read how it values the software business and financing obligations.",
+      "Compare the assumptions with the company's explanation, including costs and structural differences between the investments discussed."
+    ],
+    "key_terms": [
+      { "term": "Valuation", "definition": "An estimate or opinion of what a business or investment is worth. Different assumptions can produce different estimates." },
+      { "term": "Premium", "definition": "An amount paid above a comparison value, such as an estimate of assets after subtracting debt." },
+      { "term": "Shares outstanding", "definition": "The number of company shares currently held by investors. Issuing more shares changes each share's portion of the business." }
+    ],
+    "source_note": "Illustrative summary of a historical valuation argument, not verified or current research. No current price, bitcoin value, or investment return is supplied. This is not a recommendation to buy or sell."
+  },
+  {
+    "id": "example-ai",
+    "ticker": "AI",
+    "company_name": "C3.ai",
+    "short_seller": "Kerrisdale Capital",
+    "date_dropped": "2023-04-04",
+    "is_example": true,
+    "classification": "Questions about billing and revenue",
+    "executive_summary": [
+      "The report questioned how some recorded sales related to amounts customers had been billed or paid.",
+      "The author also questioned the company's relationship with an important business partner. Those concerns require the relevant contracts and disclosures for context.",
+      "A gap between recorded sales and cash received can have legitimate explanations. This example does not establish that the accounting was wrong."
+    ],
+    "smoking_gun": "The report discussed accounting disclosures and amounts described as unbilled receivables. A balance in that category is a starting point for questions about contract terms and collection, rather than proof that the sale was improper.",
+    "primary_claims": [
+      { "claim": "The report alleged that the treatment of some unbilled amounts raised questions about reported revenue.", "metric_disputed": "Unbilled receivables: amounts recorded as owed before an invoice has been sent.", "severity": "High" },
+      { "claim": "The report questioned the financial significance and presentation of a major partner relationship.", "metric_disputed": "Customer concentration: how much business depends on one customer or partner.", "severity": "Medium" }
+    ],
+    "what_to_check": [
+      "Read the report alongside the company's revenue-recognition policy and the notes explaining unbilled receivables for the same period.",
+      "Check contract terms, later billing and cash collection disclosures, and how much revenue came from major customers or partners.",
+      "Read the company's response and subsequent auditor or regulator findings before treating an accounting allegation as established."
+    ],
+    "key_terms": [
+      { "term": "Unbilled receivable", "definition": "An amount a company records as owed for work or services before it sends the customer an invoice. Contract details help explain why it exists." },
+      { "term": "Revenue recognition", "definition": "The accounting rules for when a company records a sale, which may be before or after cash arrives." },
+      { "term": "Cash flow", "definition": "Cash actually moving into and out of a business during a period." }
+    ],
+    "source_note": "Illustrative summary of historical allegations, not verified or current research. The underlying accounting, contracts, evidence, and company response were not independently reviewed for this example. This is not a recommendation to buy or sell."
+  },
+  {
+    "id": "example-celh",
+    "ticker": "CELH",
+    "company_name": "Celsius Holdings",
+    "short_seller": "Illustrative report author",
+    "date_dropped": null,
+    "is_example": true,
+    "classification": "Questions about sales growth",
+    "executive_summary": [
+      "This teaching example asks how to assess a report that questions whether a beverage company's sales growth reflects lasting customer demand.",
+      "The example distinguishes shipments to distributors from purchases by shoppers. Those measures can differ without proving misconduct.",
+      "No specific historical report, publication date, or allegation against Celsius has been verified here. Use this example to practice the research steps."
+    ],
+    "smoking_gun": "No source evidence is supplied for this teaching example. A chart of distributor shipments alone would not establish consumer demand or wrongdoing; its source, time period, and definitions would need checking.",
+    "primary_claims": [
+      { "claim": "The illustrative report questions whether growth in shipments would translate into lasting consumer purchases; this is not a verified allegation against the company.", "metric_disputed": "Sales growth: an increase in recorded sales, which may differ from shoppers' purchases during the same period.", "severity": "Medium" },
+      { "claim": "The illustrative report asks whether stock held by distributors could affect future orders. No distributor records are supplied here.", "metric_disputed": "Distributor inventory: products held by businesses that supply shops.", "severity": "Low" }
+    ],
+    "what_to_check": [
+      "Find the original dated report before assigning any claim to a real author; check the sources behind its sales comparisons.",
+      "Compare company filings and distributor disclosures for the same period, noting whether each figure measures shipments or consumer purchases.",
+      "Read the company's explanation of seasonal demand, distribution changes, and inventory before drawing conclusions from a short time period."
+    ],
+    "key_terms": [
+      { "term": "Distributor", "definition": "A business that buys products from a producer and supplies shops or other sellers." },
+      { "term": "Inventory", "definition": "Products held for sale. Stock can move between a producer, distributor, and shop before a shopper buys it." },
+      { "term": "Consumer demand", "definition": "The amount shoppers want to buy. It is different from the amount a business ships to distributors." }
+    ],
+    "source_note": "Illustrative teaching scenario using a real company name. No historical author, date, or allegation is verified, and no current research is supplied. This is not a recommendation to buy or sell."
+  }
+]

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8fc">
+  <meta name="description" content="Understand short seller reports in plain English. Explore examples, learn the terms, and summarize a report with ShortScope.">
+  <title>ShortScope — Stock stories, made simple.</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#reports">Skip to reports</a>
+  <header class="site-header">
+    <div class="header-inner page-width">
+      <a class="brand" href="/" aria-label="ShortScope home">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="currentColor"/><path d="M11 26v-6m9 6V14m9 12V10" stroke="white" stroke-width="3" stroke-linecap="round"/><path d="m10 12 6 3 9-7" fill="none" stroke="#a7f3d0" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span>Short<span class="brand-light">Scope</span><span class="brand-dot">.</span></span>
+      </a>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a class="nav-active" href="#reports">Explore reports</a>
+        <button class="text-button" data-open-learn>Learn the basics <span class="diagonal-arrow" aria-hidden="true">→</span></button>
+      </nav>
+      <span class="header-note"><span class="status-dot"></span> Clarity for everyday investors</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-width" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-spark" aria-hidden="true">✦</span> LESS JARGON. MORE CLARITY.</p>
+        <h1 id="hero-title">Big stock stories.<br><span>Plain English.</span></h1>
+        <p class="hero-description">A short seller report can be a lot to take in. Understand the claims, learn what they mean, and know what to look into next.</p>
+        <div class="hero-actions">
+          <button class="button button-primary" data-open-analyze><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.4 6.6L21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4L12 3Z"/></svg> Summarize a report <span class="diagonal-arrow" aria-hidden="true">→</span></button>
+          <button class="button button-quiet" data-open-learn>How it works <span class="circle-arrow" aria-hidden="true">→</span></button>
+        </div>
+        <p class="hero-footnote"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8"/></svg> Built for curious investors. No finance degree needed.</p>
+      </div>
+      <div class="hero-visual" aria-label="A simple explanation of short selling">
+        <span class="decor-dot decor-one" aria-hidden="true"></span><span class="decor-dot decor-two" aria-hidden="true"></span>
+        <div class="explainer-card">
+          <div class="explainer-top"><span class="book-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m4 6 7 7 4-4 5 9m-6 0h6v-6"/></svg></span><span>THE 20-SECOND EXPLAINER</span><span class="small-star" aria-hidden="true">✦</span></div>
+          <h2>What is a short seller?</h2>
+          <p>An investor who stands to make money if a stock’s price falls.</p>
+          <div class="explainer-flow"><span>Stock price goes down <span class="down-arrow" aria-hidden="true">→</span></span><span>Short seller may profit <span class="diagonal-arrow" aria-hidden="true">→</span></span></div>
+          <div class="explainer-note"><span aria-hidden="true">i</span><p>Their reports can raise useful questions. Their claims still need checking.</p></div>
+        </div>
+        <span class="floating-note"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8"/></svg> A clearer picture. Your own perspective.</span>
+      </div>
+    </section>
+
+    <section class="reports-section page-width" id="reports" aria-labelledby="library-heading">
+      <div class="section-heading"><div><p class="eyebrow muted-eyebrow">YOUR RESEARCH STARTS HERE</p><h2 id="library-heading">Get the story behind the headlines<span class="brand-dot">.</span></h2></div><span class="library-note"><span class="sample-dot"></span> Examples to explore · No live market feed</span></div>
+      <div class="workspace">
+        <aside class="library-panel" aria-label="Report library">
+          <div class="library-tabs" role="group" aria-label="Filter reports"><button id="all-tab" class="library-tab active" aria-pressed="true">All reports <span id="all-count">0</span></button><button id="saved-tab" class="library-tab" aria-pressed="false">Saved <span id="saved-count">0</span></button></div>
+          <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Search a company or ticker" autocomplete="off" aria-label="Search reports by company, ticker or author"></label>
+          <div id="report-list" class="report-list" aria-live="polite"><p class="list-message">Loading reports…</p></div>
+          <div class="library-help"><span class="help-symbol" aria-hidden="true">?</span><div><strong>New to short selling?</strong><p>A little context goes a long way.</p><button class="inline-button" data-open-learn>Start with the basics <span aria-hidden="true">→</span></button></div></div>
+        </aside>
+
+        <article class="report-detail" id="report-detail" aria-label="Selected report" aria-busy="true"><div class="detail-loading">Getting your reports ready…</div></article>
+      </div>
+    </section>
+    <section class="bottom-banner page-width"><div class="bottom-icon" aria-hidden="true">✧</div><div><h2>Information is a starting point.</h2><p>Read the original report, check the company’s response, and make up your own mind.</p></div><button class="text-button" data-open-learn>A few helpful basics <span class="diagonal-arrow" aria-hidden="true">→</span></button></section>
+  </main>
+  <footer class="site-footer page-width"><span class="footer-brand">ShortScope<span class="brand-dot">.</span></span><p>For understanding, not investment advice. AI summaries can miss context or make mistakes.</p><span>Stay curious. Think independently.</span></footer>
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <dialog id="analyze-dialog" aria-labelledby="analyze-title" class="modal">
+    <div class="modal-heading"><span class="modal-symbol" aria-hidden="true">✦</span><button class="icon-button close-dialog" aria-label="Close report form">×</button></div>
+    <p class="eyebrow">FROM COMPLICATED TO CLEAR</p><h2 id="analyze-title">Make a report make sense.</h2><p class="modal-description">Paste a short seller report. We’ll explain its main claims in everyday language, using only what’s in the text.</p>
+    <div class="api-status" id="api-status" role="status">Checking summary availability…</div>
+    <form id="analyze-form">
+      <div class="form-row"><label>Stock ticker <span class="required-label">Required</span><input name="ticker" id="ticker" required maxlength="12" pattern="[A-Za-z][A-Za-z0-9.\-]{0,11}" placeholder="e.g. AAPL" autocapitalize="characters"></label><label>Company name <span class="optional-label">Optional</span><input name="company_name" maxlength="120" placeholder="e.g. Apple"></label></div>
+      <label>Report author <span class="optional-label">Optional</span><input name="short_seller" maxlength="120" placeholder="Who published the report?"></label>
+      <div class="report-label"><label for="raw-text">Report text <span class="required-label">Required</span></label><button class="inline-button" type="button" id="sample-button">Try sample text →</button></div>
+      <textarea name="raw_text" id="raw-text" required minlength="80" maxlength="40000" rows="7" placeholder="Paste the report or an excerpt here (at least 80 characters)…" aria-describedby="text-hint"></textarea><p class="field-hint" id="text-hint">Text is sent to OpenAI for a summary. Avoid including personal or confidential information.</p>
+      <p id="form-error" class="form-error" role="alert" hidden></p>
+      <div class="form-bottom"><span id="character-count">0 / 40,000 characters</span><button class="button button-primary" type="submit" id="submit-button">Get a plain-English summary <span aria-hidden="true">→</span></button></div>
+    </form>
+  </dialog>
+
+  <dialog id="learn-dialog" aria-labelledby="learn-title" class="modal learn-modal"><div class="modal-heading"><span class="modal-symbol" aria-hidden="true">↗</span><button class="icon-button close-dialog" aria-label="Close learning guide">×</button></div><p class="eyebrow">A LITTLE KNOW-HOW</p><h2 id="learn-title">You don’t need to speak Wall Street.</h2><p class="modal-description">Here’s what helps when you’re reading a short seller report.</p><div class="learn-steps"><div><span>01</span><section><h3>Understand who’s talking</h3><p>A short seller can profit when a stock falls. A published report explains why they think that might happen. That financial interest is useful context.</p></section></div><div><span>02</span><section><h3>Separate a claim from a fact</h3><p>A report presents the author’s view. Look for original documents, read the company’s response, and check dates. An AI summary does not verify the claims.</p></section></div><div><span>03</span><section><h3>Use a summary as your starting point</h3><p>Explore our labelled examples or paste a report to summarize it. We explain its claims and suggest questions to research. We don’t predict prices or tell you what to buy or sell.</p></section></div></div><div class="learn-note">Our example library is illustrative historical content, not a live feed. Reports you summarize stay in server memory until it restarts. Saved bookmarks stay in this browser.</div><button class="button button-primary" id="back-to-reports">Got it. Let’s explore <span aria-hidden="true">→</span></button></dialog>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "shortscope",
+  "version": "1.0.0",
+  "description": "Plain-English short seller report summaries for everyday investors",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}
